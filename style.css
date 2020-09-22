@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: gold;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding: 1em;
+    color: black;
+    margin: .2  em;
+    border: 2px solid red;
+    border-radius: 50px 20px;
+    background-color: white;
+}
+
+#total {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding: 1em;
+    text-decoration: underline;
+    color: black;
+    margin: 1em;
+    border: 2px solid red;
+    border-radius: 20px 50px;
+    background-color: white;
+    border-radius: 4;
+}
+
+input {
+    font-size: 1em;
+    margin: .5em;
+}
+
+label {
+    font-size: 1.5em;
+    margin: .5em;
+}
