@@ -16,7 +16,7 @@ function calculateTip() {
     const tipAmount = (billValue * tipValue / 100) / numPeople.value
   
     display.innerHTML = `Tip: $${tipAmount.toFixed(1)}`
-    total.innerHTML = `Total: $${parseInt(billValue) + parseInt(tipAmount)}`
+    total.innerHTML = `Total: $${parseFloat(billValue) + parseFloat(tipAmount)}`
 }
 
 calculateTip()
